@@ -1,0 +1,150 @@
+body{
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    width:auto;
+    background-color: black;
+    margin:0;
+    padding:0;
+    background-position: center;
+    background-size: cover;
+}
+
+body img{
+    opacity: 0.5;
+    width:100%;
+    height:100%;
+}
+
+#logo{
+    height: 57px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#logo img{
+    width: 231px;
+    height: 40px;
+    opacity: 1;
+}
+
+header{
+    display:flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align:center;
+}
+
+#container1{
+    width:100%;
+    align-items: center;
+    display: flex;
+    padding: 10px 30px 10px 30px;
+}
+
+.icone{
+    color: #ffffff;
+    height: 40px;
+    width: 50px;
+    padding: 50px;
+    
+}
+
+#icones{
+    display: flex;
+}
+
+#icones img{
+    opacity: 1; 
+}
+svg{
+    color: #ffffff;
+}
+
+#menu{
+    display: flex;    
+}
+
+#menu a{ 
+    padding: 20px 40px 20px 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color:#ffffff;
+    
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0 5% 0;
+    align-items: center;
+}
+
+form input{
+    border-radius:25px;
+    border: none;
+    width: 34%;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px 0 10px 0;
+    background-color: rgba(127, 127, 127, 0.75);
+}
+
+form label{
+    margin: 10px 0px 10px 0px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 10px;
+    align-items: flex-start;
+    
+}
+
+form input::placeholder{
+    padding-left:5%;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    
+}
+
+input[type="submit"]{
+    background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
+    border: 1px solid #000000;
+    color:rgb(0, 0, 0);
+    width:200px;
+    height: 50px;
+    margin-top: 30px;
+    font-size:28px;
+    font-weight:600;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor:pointer;
+    
+}
